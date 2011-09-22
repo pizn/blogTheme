@@ -72,6 +72,7 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
      |--- _config.yml
      |--- index.html
 ####一些函数数
+```
     //页面相关
     {{ page.title }}
     {{ page.content }}
@@ -90,6 +91,7 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
     {% for post in site.posts %}
       {{ post.date | date_to_string }}<a href="{{ post.url }}" >{{ post.title }}</a>
     {% endfor %}
+```
 ####一些对应的
     //一般都要
     ---
