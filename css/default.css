@@ -159,6 +159,15 @@ body .fn-hide {
   line-height: 28px;
 }
 
+/**
+ *
+ * content
+ *
+ */
+#content .entry {
+  text-align: left;
+}
+
 
 /**
  *
