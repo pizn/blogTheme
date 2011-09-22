@@ -72,13 +72,6 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
      |--- _config.yml
      |--- index.html
 ####一些函数数
-    //站点相关
-    //{{ site.time }}
-    //{{ site.posts }}
-    //{{ site.related_posts }}
-    //{{ site.categories.CATEGORY }}
-    //{{ site.tags.TAG }}
-
     //页面相关
     {{ page.title }}
     {{ page.content }}
@@ -93,13 +86,6 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
     {{ post.tags }}
     {{ post.tags }}
     {{ post.content }}
-    //分页相关
-    {{ paginator.per_page }} //num
-    {{ paginator.posts }}
-    {{ paginator.total_posts }} //num
-    {{ paginator.page }} //num
-    {{ paginator.previous_page }} //num
-    {{ paginator.next_pag }} //num
     //循环
     {% for post in site.posts %}
       {{ post.date | date_to_string }}<a href="{{ post.url }}" >{{ post.title }}</a>
