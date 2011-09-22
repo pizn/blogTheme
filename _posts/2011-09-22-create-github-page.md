@@ -72,7 +72,6 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
      |--- _config.yml
      |--- index.html
 ####一些函数数
-```
     //页面相关
     page.title
     page.content
@@ -87,7 +86,6 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
     post.tags
     post.tags
     post.content
-```
 ####一些对应的
     //一般都要
     ---
