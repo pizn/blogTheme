@@ -126,6 +126,42 @@ body .fn-hide {
 
 /**
  *
+ * layout
+ *
+ */
+#header {
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#content {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/**
+ *
+ * header
+ *
+ */
+#header h1 {
+  font-size: 18px;
+  line-height: 36px;
+  text-align: left;
+  border-bottom: 1px solid #d8d8d8;
+}
+#header h2 {
+  text-align: left;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+
+/**
+ *
  *  entry
  *
  */
