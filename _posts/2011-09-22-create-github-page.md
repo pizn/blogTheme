@@ -3,7 +3,7 @@ layout: post
 title: 在 github 上建立 pages 的过程
 ---
 #{{ page.title }}
-2010-09-22 @杭州
+2011-09-22 @杭州
 
 ##建立项目-Repository
   首先在 GitHub 上建立自己库，例如一个 test 库;
@@ -73,11 +73,12 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
      |--- index.html
 ####一些函数数
     //站点相关
-    {{ site.time }}
-    {{ site.posts }}
-    {{ site.related_posts }}
-    {{ site.categories.CATEGORY }}
-    {{ site.tags.TAG }}
+    //{{ site.time }}
+    //{{ site.posts }}
+    //{{ site.related_posts }}
+    //{{ site.categories.CATEGORY }}
+    //{{ site.tags.TAG }}
+
     //页面相关
     {{ page.title }}
     {{ page.content }}
