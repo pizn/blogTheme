@@ -74,23 +74,19 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
 ####一些函数数
 ```
     //页面相关
-    {{ page.title }}
-    {{ page.content }}
+    page.title
+    page.content
     //内容
-    {{ content }}
+    content
     //文章相关
-    {{ post.title }}
-    {{ post.url }}
-    {{ post.date }}
-    {{ post.id }}
-    {{ post.categories }}
-    {{ post.tags }}
-    {{ post.tags }}
-    {{ post.content }}
-    //循环
-    {% for post in site.posts %}
-      {{ post.date | date_to_string }}<a href="{{ post.url }}" >{{ post.title }}</a>
-    {% endfor %}
+    post.title
+    post.url
+    post.date
+    post.id
+    post.categories
+    post.tags
+    post.tags
+    post.content
 ```
 ####一些对应的
     //一般都要
