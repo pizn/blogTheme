@@ -53,7 +53,61 @@ pages是怎么样的一个概念，你可以参考 <pages.github.com>
     //尝试着编辑，上传，更新看看
     vi index.html
     ⋯⋯
+###一些其他的内容
 ####简单的更新本地代码到 github
     git add . 
     git commit -m 'test'
     git push origin gh-pages
+####jekyll 基本目录
+    test
+     |--- _layouts/
+       |--- default.html
+       |--- post.html
+     |--- _posts/
+       |--- 2011-09-22-title1
+       |--- 2011-09-22-title2
+     |--- css/
+       |--- base.css
+       |--- sytle.css
+     |--- _config.yml
+     |--- index.html
+####一些函数数
+    //站点相关
+    {{ site.time }}
+    {{ site.posts }}
+    {{ site.related_posts }}
+    {{ site.categories.CATEGORY }}
+    {{ site.tags.TAG }}
+    //页面相关
+    {{ page.title }}
+    {{ page.content }}
+    //内容
+    {{ content }}
+    //文章相关
+    {{ post.title }}
+    {{ post.url }}
+    {{ post.date }}
+    {{ post.id }}
+    {{ post.categories }}
+    {{ post.tags }}
+    {{ post.tags }}
+    {{ post.content }}
+    //分页相关
+    {{ paginator.per_page }} //num
+    {{ paginator.posts }}
+    {{ paginator.total_posts }} //num
+    {{ paginator.page }} //num
+    {{ paginator.previous_page }} //num
+    {{ paginator.next_pag }} //num
+    //循环
+    {% for post in site.posts %}
+      {{ post.date | date_to_string }}<a href="{{ post.url }}" >{{ post.title }}</a>
+    {% endfor %}
+####一些对应的
+    //一般都要
+    ---
+    layout: post
+    title: Hello world
+    ---
+###有待补充的
+⋯⋯
