@@ -184,8 +184,8 @@ body .fn-hide {
 #footer h4 {
   text-align: left;
 }
-#footer p {
-  float: left;
+#footer .link {
+  text-align: left;
 }
 
 
