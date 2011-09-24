@@ -162,8 +162,6 @@ a:hover {
   background: -webkit-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
   background: -o-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
   background: -ms-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57025d', endColorstr='#800888',GradientType=2 );
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57025d', endColorstr='#800888',GradientType=2 );
   background: linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%)
 }
 #header {
@@ -222,8 +220,6 @@ a:hover {
   background: -webkit-linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%);
   background: -o-linear-gradient(top, #57025d 0%, #a933b1 30%, #ac60b1 100%);
   background: -ms-linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57025d', endColorstr='#a933b1',GradientType=2 );
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57025d', endColorstr='#a933b1',GradientType=2 );
   background: linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%)
 }
 
@@ -254,6 +250,7 @@ a:hover {
   width: 560px;
   height: auto;
   text-align: left;
+  float: left;
 }
 #post-list h3 {
   display: inline-block;
