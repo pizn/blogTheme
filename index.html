@@ -1,11 +1,16 @@
 ---
-layout: post
+layout: default
 title: index | pizn's github blog
 ---
-
-<h1>Blog Posts</h1>
-<ul class="posts">
-  {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<header id="prefile">
+  <h2>I'm PIZn.</h2>
+  <p>Phosphorus,Iodine & Zinc.</p>
+</header>
+<article id="post-list">
+  <h3>My Github Posts List</h3>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</article>
