@@ -1,3 +1,11 @@
+/**
+ *
+ * Author:           PIZn
+ * Contact:          pizner@gmail.com
+ * This style sheet for viloet theme.
+ *
+ */
+
 /* 重置浏览器CSS */
 /* 防止用户自定义背景颜色对网页的影响 */
 html{
@@ -382,6 +390,18 @@ a:hover {
   margin: 1.5em 0;
   line-height: 1.8em;
   text-indent: 28px;
+}
+.entry a {
+  font-family: "Times New Roman", Times, serif;
+  padding: 1px 5px;
+  text-decoration: none;
+  -moz-border-radius: 3px 3px;
+  -webkit-border-radius: 3px 3px;
+  -o-border-radius: 3px 3px;
+  border-radius: 3px 3px;
+}
+.entry .back-home {
+  text-indent: 0;
 }
 .entry > p:first-child {
   margin: 1em 0;
