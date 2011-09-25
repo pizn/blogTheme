@@ -291,15 +291,17 @@ a:hover {
 }
 #post-list p {
   margin: 1em 0 0;
-  padding-left: 5px;
   font-family: Monaco,"Courier New",monospace;
   font-size: 12px;
   line-height: 24px;
   color: #383838;
   border-left: 3px solid #e8e8e8;
+  text-indent: 8px;
 }
 #post-list p span {
+  padding-right: 8px;
   color: #5c9137;
+  background: #f0f0f0;
 }
 #post-list.change-log {
   width: 780px;
