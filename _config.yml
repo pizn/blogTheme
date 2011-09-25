@@ -1,11 +1,11 @@
 markdown:         rdiscount
 pygments:         true
-permalink:        /:categories/:year/:month/:title.html
+permalink:        /blog/:categories/:year/:month/:title.html
 paginate:         4
 
 title:            PIZn's GitHub Blog
 url:              http://pizn.github.com/blog
-feed:             /atom.xml
+feed:             /blog/atom.xml
 author:
     name:         PIZn
     email:        pizner@gmail.com
