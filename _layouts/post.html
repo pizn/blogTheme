@@ -3,5 +3,12 @@ layout: default
 ---
 <article class="entry">
   {{ content }}
-  <p class="back-home"><a href="/blog" title="home">&laquo; Back Home </a></p>
+  <nav id="pagination">
+    {% if page.previous %}
+      <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+    {% endif %}
+    {% if page.next %}
+    <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
+    {% endif %}
+  </nav>
 </article><!-- .entry -->

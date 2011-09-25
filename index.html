@@ -1,16 +1,37 @@
 ---
-layout: default
-title: index | pizn's github blog
+layout:           default
 ---
 <header id="prefile">
   <h2>I'm PIZn.</h2>
   <p>Phosphorus,Iodine & Zinc.</p>
 </header>
 <article id="post-list">
-  <h3>My Github Posts List</h3>
+  <h3>My GitHub Posts List</h3>
   <ul class="posts">
-    {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/blog{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></li>
+    {% for post in paginator.posts  %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  {% if paginator.total_pages > 1 %}
+    <nav id="pagination">
+      <span class="pages">Pages:&nbsp;</span>
+      {% if paginator.previous_page %}
+        <a class="prev" href="/{%if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">&laquo; Newer</a>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <a class="next" href="/page{{ paginator.next_page }}/">Older &raquo;</a>
+      {% endif %}
+
+      <div class="paginator-list">
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <span class="num">{{ page }}</span>
+          {% else %}
+            <a class="num" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  {% endif %}
 </article>
