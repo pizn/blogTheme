@@ -1,6 +1,5 @@
 markdown:         rdiscount
 pygments:         true
-permalink:        /blog/:categories/:year/:month/:title.html
 paginate:         4
 
 title:            PIZn's GitHub Blog
