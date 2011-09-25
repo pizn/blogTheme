@@ -289,6 +289,17 @@ a:hover {
 #post-list li a:hover {
   text-decoration: none;
 }
+#post-list p {
+  font-family: Monaco,"Courier New",monospace;
+  font-size: 14px;
+  line-height: 18px;
+  color: #383838;
+  margin: 1em 0 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+#post-list p span {
+  color: #686868;
+}
 #pagination {
   margin: 15px 0 10px 0;
   width: 100%;
