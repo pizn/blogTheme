@@ -295,10 +295,10 @@ a:hover {
   line-height: 24px;
   color: #383838;
   margin: 1em 0 0;
-  border-right: 3px solid #e8e8e8;
+  border-left: 3px solid #e8e8e8;
 }
 #post-list p span {
-  color: #686868;
+  color: #5c9137;
 }
 #pagination {
   margin: 15px 0 10px 0;
