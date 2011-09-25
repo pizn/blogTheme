@@ -301,6 +301,9 @@ a:hover {
 #post-list p span {
   color: #5c9137;
 }
+#post-list.change-log {
+  width: 780px;
+}
 #pagination {
   margin: 15px 0 10px 0;
   width: 100%;
