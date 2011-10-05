@@ -1,6 +1,6 @@
 markdown:         rdiscount
 pygments:         true
-paginate:         4
+paginate:         6
 
 title:            PIZn's GitHub Blog
 url:              http://pizn.github.com/blog
