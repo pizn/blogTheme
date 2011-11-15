@@ -48,9 +48,7 @@ js请求）；如果你有一些社交化工具，例如twitter，也可以填�
 
       <div id="disqus_thread"></div>
       <script type="text/javascript">
-      var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你自己的
-短域名
-
+      var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你自己的短域名
       /* * * 下面这些不需要改动 * * */
       (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
