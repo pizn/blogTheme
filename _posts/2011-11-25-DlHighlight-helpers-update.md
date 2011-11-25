@@ -1,5 +1,5 @@
 ---
-layouts:        post
+layout:        post
 title:          为 DlHighlight 的 Helpers 增加行数
 ---
 #{{ page.title }}
