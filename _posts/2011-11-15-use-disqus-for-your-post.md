@@ -45,20 +45,20 @@ js请求）；如果你有一些社交化工具，例如twitter，也可以填�
 ####获取代码
 
 很愉快的是，DisQus 已经为我们生成了这样的一段代码：
-
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-      var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你自己的短域名
-      /* * * 下面这些不需要改动 * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
+<pre class="html" name="colorcode">
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你自己的短域名
+/* * * 下面这些不需要改动 * * */
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+</pre>
 
 ####嵌入到网页里面去
 
