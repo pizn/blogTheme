@@ -17,28 +17,32 @@ title:          安装 node.js
 2. 安装 git2. 安装 git (之前已经有文章介绍过)
 3. 在终端输入下面命令：
 
-        git clone git://github.com/ry/node.git
-        cd node
-        ./configure
-        make
-        sudo make install
+<pre name="colorcode" class="js">
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+</pre>
 
 接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。
 
 ###Ubuntu 上面的安装方法
 
 1.  安装一些依赖包
-
-        sudo apt-get install g++ curl libssl-dev apache2-utils
-        sudo apt-git install git-core
+<pre name="colorcode" class="js">
+sudo apt-get install g++ curl libssl-dev apache2-utils
+sudo apt-git install git-core
+</pre>
 
 2.  在终端下运行下面命令：
-
-        git clone git://github.com/ry/node.git
-        cd node
-        ./configure
-        make
-        sudo make install
+<pre name="colorcode" class="js">
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+</pre>
 
 接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。
 
@@ -57,14 +61,13 @@ title:          安装 node.js
 
 3. 依照 start -> cygwin -> cygwin bash shell 打开终端
 4. 输入下面命令：
-
-
-        git clone git://github.com/ry/node.git
-        cd node
-        ./configure
-        make
-        sudo make install
-
+<pre name="colorcode" class="js">
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+</pre>
 接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。
 
 PS: 其实在 windows 下，还有其他的安装方法。具体百度一下就有。
