@@ -14,7 +14,6 @@ body {
   font: 10pt Monaco,serif;
   padding: 4px 0;
   overflow:  auto;
-
 }
 
 .DlHighlight pre { margin: 0; padding: 0; }
@@ -53,7 +52,7 @@ body {
   background: #2f2f2f;
   margin-right: 5px;
   font: 0.9em Monaco,serif;
-  padding-top: 0.1em;
+  padding-top: 0.08em;
 }
 .DlHighlight .line-numbers:after { content: "." }
 
