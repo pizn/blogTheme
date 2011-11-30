@@ -53,7 +53,9 @@ domReady 的时候调用的辅助函数不是很完美，遂修改之。
 
 OK，修改好之后，就可以这样来调用了：
     
-    window.onload = function() {
-        //最后一个参数 true 为打开行数，false 为关闭
-        DlHighlight.HELPERS.highlighting('fooname', 'pre', '', true);
-    }
+<pre name="colorcode" class="js">
+window.onload = function() {
+    //最后一个参数 true 为打开行数，false 为关闭
+    DlHighlight.HELPERS.highlighting('fooname', 'pre', '', true);
+}
+</pre>
