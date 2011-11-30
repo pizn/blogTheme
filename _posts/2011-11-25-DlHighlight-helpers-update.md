@@ -20,36 +20,37 @@ domReady 的时候调用的辅助函数不是很完美，遂修改之。
 ，好简单丫。
 
 修改点，为 highlightByName 函数增加 switch 即可；
-
-    highlightByName: function(name, tag, args, switch) {
-        if(!switch)
-            switch = false;
-        if(!args)
-            args = {};
-        if(!tag)
-            tag = "pre";
-        var a = document.getElementsByTagName(tag);
-        for (var i = a.length; --i >= 0;) {
-            var el = a[i];
-            if (el.getAttribute("name") == name) {
-                var code = el._msh_text || getText(el);
-                el._msh_text = code;
-                args.leng = el.msh_type || el.className;
-                el._msh_type = args.lang;
-                args.lineNumbers = switch;
-                var hl = new DlHighlight(args);
-                code = hl.doItNow(code);
-                if(DlHighlight.is_ie) {
-                    var div = document.createElement("div");
-                    div.innerHTML = "<pre>" + code + "</pre>";
-                    while (div.firstChild)
-                        el.appendChild(div.firstChild);
-                } else
-                    el.innerHTML = code;
-                el.className = "DlHighlight" + el.className;
-            }
+<pre name="colorcode" class="js">
+highlightByName: function(name, tag, args, switch) {
+    if(!switch)
+        switch = false;
+    if(!args)
+        args = {};
+    if(!tag)
+        tag = "pre";
+    var a = document.getElementsByTagName(tag);
+    for (var i = a.length; --i >= 0;) {
+        var el = a[i];
+        if (el.getAttribute("name") == name) {
+            var code = el._msh_text || getText(el);
+            el._msh_text = code;
+            args.leng = el.msh_type || el.className;
+            el._msh_type = args.lang;
+            args.lineNumbers = switch;
+            var hl = new DlHighlight(args);
+            code = hl.doItNow(code);
+            if(DlHighlight.is_ie) {
+                var div = document.createElement("div");
+                div.innerHTML = "<pre>" + code + "</pre>";
+                while (div.firstChild)
+                    el.appendChild(div.firstChild);
+            } else
+                el.innerHTML = code;
+            el.className = "DlHighlight" + el.className;
         }
     }
+}
+</pre>
 
 OK，修改好之后，就可以这样来调用了：
     
