@@ -41,7 +41,7 @@ highlightByName: function(name, tag, args, switch) {
             code = hl.doItNow(code);
             if(DlHighlight.is_ie) {
                 var div = document.createElement("div");
-                div.innerHTML = "<pre>" + code + "</pre>";
+                div.innerHTML = "&lt;pre&gt;" + code + "&lt;/pre&gt;";
                 while (div.firstChild)
                     el.appendChild(div.firstChild);
             } else
