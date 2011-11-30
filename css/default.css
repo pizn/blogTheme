@@ -183,6 +183,7 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   background-color:#fff;
+  overflow: auto;
 }
 #foot {
   width: 100%;
@@ -583,14 +584,15 @@ a:hover {
   color: #555;
 }
 .entry pre {
-	font-family: Monaco,serif;
-	font-size:  12px;
-	color: #ababab;
-	overflow: auto;
-	-webkit-border-radius: 3px 3px 3px 3px;
-  	-moz-border-radius: 3px 3px 3px 3px;
-  	border-radius: 3px 3px 3px 3px;
-  	border: 1px solid #d0d0d0;
+    font-family: Monaco,serif;
+    font-size:  12px;
+    color: #ababab;
+    overflow: auto;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #d0d0d0;
+    _border: none;
 }
 .entry .wp-caption {
   background: #f8f8f8;
