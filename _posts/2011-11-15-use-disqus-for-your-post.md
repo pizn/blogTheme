@@ -56,7 +56,7 @@ var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你�
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
 </pre>
 
