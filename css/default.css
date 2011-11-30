@@ -585,7 +585,6 @@ a:hover {
 }
 .entry pre {
     font-family: Monaco,serif;
-    font-size:  12px;
     color: #ababab;
     overflow: auto;
     -webkit-border-radius: 3px 3px 3px 3px;
