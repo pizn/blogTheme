@@ -54,7 +54,6 @@ body {
   font: 0.9em Monaco,serif;
   padding-top: 0.08em;
 }
-.DlHighlight .line-numbers:after { content: "." }
 
 /* XML */
 .DlHighlight .xml-tag-open, .DlHighlight .xml-tag-close { color: #A6E22E; }
