@@ -583,22 +583,14 @@ a:hover {
   color: #555;
 }
 .entry pre {
-  background: #f8f8f8;
-  border: 1px solid #c5c5c5;
-  -webkit-border-radius: 3px 3px 3px 3px;
-  -moz-border-radius: 3px 3px 3px 3px;
-  border-radius: 3px 3px 3px 3px;
-  font-size: 12px;
-  line-height: 18px;
-  overflow: auto;
-  padding: 6px 10px;
-}
-.entry > pre {
-  margin: 20px 0 0;
-}
-.entry pre code {
-  background-color: transparent;
-  border: medium none;
+	font-family: Monaco,serif;
+	font-size:  12px;
+	color: #ababab;
+	overflow: auto;
+	-webkit-border-radius: 3px 3px 3px 3px;
+  	-moz-border-radius: 3px 3px 3px 3px;
+  	border-radius: 3px 3px 3px 3px;
+  	border: 1px solid #d0d0d0;
 }
 .entry .wp-caption {
   background: #f8f8f8;
