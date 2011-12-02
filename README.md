@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 ###PIZn's GitHub Blog
 
 Hi, all. I am  PIZn.
+=======
+##PIZn's GitHub Blog
+
+Hi, all. I am PIZn.
+>>>>>>> 167b3851a5f1726d3120d2fc8ca2c3bd7cfdd17a
 
 ###关于 PIZn's GitHub Blog
 
 这是我在 GitHub 的小博，为什么我有一个 wordpress 博客了，还要建多一个小博呢？因
+<<<<<<< HEAD
 为这里主要是<strong>快速</strong>记录我平时的一些学习笔记。
+=======
+为这里主要是快速记录我平时的一些学习笔记。
+>>>>>>> 167b3851a5f1726d3120d2fc8ca2c3bd7cfdd17a
 
 ###如何达到快速呢？
 
@@ -20,5 +30,8 @@ Hi, all. I am  PIZn.
 如果你也想像我这样来写博客，搭建 GitHub 博客，如果有啥不懂的，我们互相交流！
 
 邮箱: pizner@gmail.com
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 167b3851a5f1726d3120d2fc8ca2c3bd7cfdd17a
