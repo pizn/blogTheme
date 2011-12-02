@@ -2,14 +2,14 @@ markdown:         rdiscount
 pygments:         true
 paginate:         6
 
-title:            PIZn's GitHub Blog
+title:            PIZn's Blog theme
 url:              http://pizn.github.com
 feed:             /blog/atom.xml
 author:
     name:         PIZn
     email:        pizner@gmail.com
     twitter:      twitter.com/piznlin
-description:      "PIZn's another blog. Just to write down some note about work, such css, javascript and html."
+description:      "PIZn's blog theme -- violet 1.0 "
 
 copyright:
     - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
