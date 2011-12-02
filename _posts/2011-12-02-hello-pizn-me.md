@@ -18,3 +18,4 @@ title:      GitHub Pages 使用独立域名
 GitHub 提供的地址是：207.97.227.245
 
 恩，就这样。-- 完 --
+test
