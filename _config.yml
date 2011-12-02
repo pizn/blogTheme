@@ -3,8 +3,8 @@ pygments:         true
 paginate:         6
 
 title:            PIZn's GitHub Blog
-url:              http://pizn.github.com/blog
-feed:             /blog/atom.xml
+url:              http://www.pizn.me
+feed:             /atom.xml
 author:
     name:         PIZn
     email:        pizner@gmail.com
