@@ -5,6 +5,8 @@ title:      PIZn Blog 使用独立域名和 Blog Repo 相关事宜
 #{{ page.title }}
 2011-12-02 By PIZn @杭州
 
+###GitHub Pages 使用独立域名
+
 恩，今天为自己的 GitHub 博客更换了新域名 www.pizn.me 更换的方法很简单：
 
 1, 在你的 github 项目主目录下创建 CNAME 文件，里面输入你的域名地址：
@@ -27,6 +29,8 @@ GitHub 提供的地址是：207.97.227.245
 3, 文章列表页 (archives.html)
 
 4, 配置文件 (_config.yml)
+
+因为修改了路径的原因，原先的 pizn.github.com/blog 页面基本是空白的。链接页点不进取。
 
 由于新域名的启用，可能给您带来麻烦，多多包含。
 
