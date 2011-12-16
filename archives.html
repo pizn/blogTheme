@@ -7,6 +7,11 @@ title:            Archives
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span>&nbsp;&raquo;&nbsp;<a href="/blog{{ post.url }}" title="{{ post.title }}" alt="bookmark">{{ post.title }}</a></li>
+
+      {% capture month %}
+            {{ post.data | data: '%B %Y' }}
+      {% endcapture %}
+
     {% endfor %}
   </ul>
 </article>
