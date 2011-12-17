@@ -11,7 +11,9 @@ title:            Archives
   </ul>
   {% for year in (2005..2015) reversed %}
     {{ year }}
-    <p>hello</p>
+    {% if site.collated_posts[year] %}
+    <h3>hello</h3>
+    {% endif %}
   {% endfor %}
 </article>
 
