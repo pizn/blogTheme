@@ -9,18 +9,9 @@ title:            Archives
       <li><span>{{ post.date | date_to_string }}</span>&nbsp;&raquo;&nbsp;<a href="/blog{{ post.url }}" title="{{ post.title }}" alt="bookmark">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-  {% for y in (2007..2025) reversed %}
-    {% if site.collated_posts[y] %}
-        <li>{{ y }}
-            <ul>
-              {% for m in (1..12) reversed %}
-                  {% if site.collated_posts[y][m] %}
-                      <li><a href='/{{ y }}/{{ m }}/'>{{ m | to_month}}</a></li>
-                  {% endif %}
-              {% endfor %}
-            </ul>
-        </li>
-    {% endif %}
+  {% for year in (2005..2015) reversed %}
+    {{ year }}
+    <p>hello</p>
   {% endfor %}
 </article>
 
