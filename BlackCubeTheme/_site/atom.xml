@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+   <title>Black Cube Theme</title>
+   <link href="http://www.pizn.me/atom.xml" rel="self" type="application/atom+xml"/>
+   <link href="http://www.pizn.me" rel="alternate" type="text/html" />
+   <updated>2012-04-26T13:35:21+08:00</updated>
+   <id>http://www.pizn.me</id>
+   <author>
+     <name>PIZn</name>
+     <email>pizner@gmail.com</email>
+   </author>
+
+   
+   <entry>
+     <title>Jekyll Blog 主题 Black Cube 1.0</title>
+     <link href="http://www.pizn.me/2012/04/26/hello-world.html"/>
+     <updated>2012-04-26T00:00:00+08:00</updated>
+     <id>http://www.pizn.me/2012/04/26/hello-world</id>
+     <content type="html">&lt;h3&gt;&quot;BLACKQUERY&quot;标签：&lt;/h3&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Your time is limited, so don't waste it living someone else's life.…Don't let the noise of others' opinions drown out your own inner voice.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h3&gt;&quot;H&quot;标签：&lt;/h3&gt;
+
+&lt;h1&gt;如何创建漂亮的 Jekyll 模板(h1)&lt;/h1&gt;
+
+&lt;h2&gt;如何创建漂亮的 Jekyll 模板(h2)&lt;/h2&gt;
+
+&lt;h3&gt;如何创建漂亮的 Jekyll 模板(h3)&lt;/h3&gt;
+
+&lt;h4&gt;如何创建漂亮的 Jekyll 模板(h4)&lt;/h4&gt;
+
+&lt;h5&gt;如何创建漂亮的 Jekyll 模板(h5)&lt;/h5&gt;
+
+&lt;h5&gt;如何创建漂亮的 Jekyll 模板(h6)&lt;/h5&gt;
+
+&lt;h3&gt;&quot;P&quot;标签：&lt;/h3&gt;
+
+&lt;p&gt;基于简单而又有质感的理念，&lt;a href=&quot;http://www.pizn.me&quot; target=&quot;_blank&quot;&gt;PIZn&lt;/a&gt; 设计并编写了这个主题。下面介绍文章页的一些标签使用方法&lt;/p&gt;
+
+&lt;h3&gt;&quot;LI&quot;标签：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;基于简单而又有质感的理念，&lt;a href=&quot;http://www.pizn.me&quot; target=&quot;_blank&quot;&gt;PIZn&lt;/a&gt; 设计并编写了这个主题。下面介绍文章页的一些标签使用方法&lt;/li&gt;
+&lt;li&gt;基于简单而又有质感的理念，&lt;a href=&quot;http://www.pizn.me&quot; target=&quot;_blank&quot;&gt;PIZn&lt;/a&gt; 设计并编写了这个主题。下面介绍文章页的一些标签使用方法&lt;/li&gt;
+&lt;li&gt;基于简单而又有质感的理念，&lt;a href=&quot;http://www.pizn.me&quot; target=&quot;_blank&quot;&gt;PIZn&lt;/a&gt; 设计并编写了这个主题。下面介绍文章页的一些标签使用方法&lt;/li&gt;
+&lt;li&gt;基于简单而又有质感的理念，&lt;a href=&quot;http://www.pizn.me&quot; target=&quot;_blank&quot;&gt;PIZn&lt;/a&gt; 设计并编写了这个主题。下面介绍文章页的一些标签使用方法&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;&quot;CODE&quot; 和 &quot;PRE&quot;：&lt;code class=&quot;code&quot;&gt;Hello world&lt;/code&gt;&lt;/h3&gt;
+
+&lt;pre&gt;
+.head {
+    border: 1px solid #fefefe;
+    color: #F00;
+    background: #000;
+    text-align: center;
+}
+&lt;/pre&gt;
+
+
+&lt;h3&gt;&quot;IMG&quot;标签：图片提供 3 种样式，分别是&lt;code class=&quot;code&quot;&gt;img-center&lt;/code&gt;, &lt;code class=&quot;code&quot;&gt;img-right&lt;/code&gt;, &lt;code class=&quot;code&quot;&gt;img-left&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/psb.jpg&quot; class=&quot;img-center&quot; width: 400px; alt=&quot;thumb&quot; &gt;&lt;/p&gt;
+
+&lt;h3&gt;&quot;TABLE&quot;标签：&lt;/h3&gt;
+
+&lt;table width=&quot;100%&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th width=&quot;20%&quot;&gt;命令&lt;/th&gt;
+            &lt;th width=&quot;80%&quot;&gt;作用（解释)&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;code class=&quot;v-code&quot;&gt;:w&lt;/code&gt;
+            &lt;/td&gt;
+            &lt;td&gt;保存&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;code class=&quot;v-code&quot;&gt;:wq&lt;/code&gt;,
+                &lt;code class=&quot;v-code&quot;&gt;:x&lt;/code&gt;
+            &lt;/td&gt;
+            &lt;td&gt;保存并关闭&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;code class=&quot;v-code&quot;&gt;:q&lt;/code&gt;
+            &lt;/td&gt;
+            &lt;td&gt;关闭（已保存）&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;code class=&quot;v-code&quot;&gt;:q!&lt;/code&gt;
+            &lt;/td&gt;
+            &lt;td&gt;强制关闭&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+</content>
+   </entry>
+   
+ 
+</feed>
