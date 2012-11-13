@@ -1,8 +1,22 @@
-###theOne Theme
+##theOne Theme
 
 这是一个更简洁和轻量的博客主题，响应式设计，支持 iconfont，更多自定义内容，为更好的阅读体验做好样式化。
 
-####通过_config.yml，可以配置如下内容：
+###支持响应式设计
+
+宽屏样式如下：
+
+<img src="http://www.pizn.net/static/images/20121113theOne1.jpg" alt="宽屏" />
+
+ipad样式：
+
+<img src="http://www.pizn.net/static/images/20121113theOne2.jpg" alt="ipad" />
+
+iphone样式：
+
+<img src="http://www.pizn.net/static/images/20121113theOne3.jpg" alt="iphone" />
+
+###通过_config.yml，可以配置如下内容：
 
 1. ```paginate```: 分页数目
 2. ```title```: 博客主题
@@ -21,7 +35,7 @@
 15. ```desqus```: 社会化评论的id
 16. ```copyright```: 版权
 
-####使用 iconfont 的方法：
+###使用 icon-font 的方法：
 
 查看<a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">这里</a>，通过class来添加，建议使用如下方法:
 
