@@ -10,9 +10,7 @@ var navs, url, cur, i;
 navs = $("#nav li a");
 for(i = 1 ; i < navs.length; i++ ){
     url = navs[i].href;
-    console.log(url);
     cur = window.location.href;
-    console.log(cur);
     if(cur.indexOf(url) !=-1) {
         navs[i].className = "action";
         navs[0].className = "";
