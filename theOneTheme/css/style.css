@@ -390,6 +390,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .post blockquote { padding: 0.5em 1em 0.4em 1em; margin-bottom: 1em;  border-left: .9em solid #232323; }
 .post pre { width: 100%; margin-left: -40px; background: #f8f8f8; border-top:  1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; padding: 1em 0 1em 40px; }
 .post code { color: #4d4d4d; background: #f8f8f8; padding: 0 0.2em; border: 1px solid #d8d8d8; border-radius: 3px 3px; position: relative; top: -2px; margin: 0 3px; box-shadow: 1px 1px 0 #999; }
+.post pre code { border: none; box-shadow: none; padding: 0 0; }
 .post p, .post h3, .post h4, .post blockquote, .post li { max-width: 580px; }
 .post blockquote p { margin-bottom: 0; }
 .post table { width: 680px; }
