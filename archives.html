@@ -1,17 +1,21 @@
 ---
-layout:           default
-title:            Archives
+layout: default
+title: Archives
+date: All posts is here.
 ---
-<article id="post-list">
-  <h3>{{ page.title }}<span>(&nbsp;{{ site.posts | size }} posts.&nbsp;)</span></h3>
-  <ul class="posts">
-    {% for post in site.posts %}
-        {% capture month %}
-            <p>wwwww</p>
-        {% endcapture %}
-      <li><span>{{ post.date | date_to_string }}</span>&nbsp;&raquo;&nbsp;<a href="/blog{{ post.url }}" title="{{ post.title }}" alt="bookmark">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<article class="post">
+    {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
+            <h3>{{ post_year1 }}</h3>
+            <ul>
+            {% for post in site.posts %}
+                        {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+                        {% if post_year1 != post_year2 %}
+                            {% assign post_year1 = post_year2 %}
+                            </ul>
+                            <h3>{{ post_year1 }}</h3>
+                            <ul>
+                            {% endif %}
+                            <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
 </article>
-
-

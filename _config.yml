@@ -1,17 +1,34 @@
 markdown:         rdiscount
 pygments:         true
-paginate:         6
+paginate:         4
 
-title:            PIZn's Blog theme
-url:              http://pizn.github.com
-feed:             /blog/atom.xml
+title:            The One Theme
+url:              http://www.pizn.net/blogTheme
+feed:             /atom.xml
 author:
     name:         PIZn
     email:        pizner@gmail.com
-    twitter:      twitter.com/piznlin
-description:      "PIZn's blog theme -- violet 1.0 "
+description:      "The one theme is another web theme design by PIZn."
 
-copyright:
-    - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
-    - "&copy; Copyright 2011, PIZn. All Rights Reserved."
+about:            "I am PIZn.I love all kinds of design, attention to the Internet dynamic, dedicated web front development, learn UI and UED."
+follow:
+    email:        pizner@gmail.com
+    github:       https://github.com/pizn
+    twitter:      http://www.twitter.com/piznlin
+    google:       https://plus.google.com/107483619032085919305
+    facebook:     http://facebook.com/zhanxinlin
+description:      Just another blog theme -- the One
 
+indexContent:     true
+imageLink:        http://www.pizn.net/static/images/20121109Monutain.jpg
+
+
+style:            /css/style.css
+blogName:         theOne 
+blogDesc:         Just another theme
+favicon:          http://www.pizn.net/favicon.ico
+theme:            green
+
+disqus:           piznblog
+
+copyright:        Copyright © 2011-2012 PIZn All rights reserved.
