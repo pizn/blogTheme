@@ -26,7 +26,7 @@ imageLink:        http://www.pizn.net/static/images/20121109Monutain.jpg
 style:            /css/style.css
 blogName:         theOne 
 blogDesc:         Just another theme
-favicon:          http://www.pizn.net/favicon.ico
+favicon:          /favicon.ico
 theme:            default
 
 disqus:           piznblog
