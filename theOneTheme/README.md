@@ -23,7 +23,7 @@
 
 ####使用 iconfont 的方法：
 
-查看这里http://fortawesome.github.com/Font-Awesome/，通过class来添加，建议使用如下方法:
+查看<a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">这里</a>，通过class来添加，建议使用如下方法:
 
 <pre>
 &lt;i class="icon-home"&gt;&lt;/i&gt;
