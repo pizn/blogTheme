@@ -1,0 +1,28 @@
+---
+layout: default
+date: Index
+---
+{% for rpost in paginator.posts %}
+	<article class="post fn-clear">
+        <h2><a href="{{ site.url }}{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h2>
+        <p class="time"><time pubdate="{{ rpost.date }}">{{ rpost.date | date_to_string }}</time></p>
+        {% if site.indexContent == true %}
+        {{ rpost.content }}
+        {% else %}
+        <p>{{ rpost.description }}</p>
+        {% endif %}
+    </article>
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+    <nav id="pagination" class="fn-clear">
+        <ul class="pagination">
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
+                {% else %}
+                    <li><a href="{{ site.url }}/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+{% endif %}	

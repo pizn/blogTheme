@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    **
+    *
+    * Author:         PIZn
+    * Contact:        pizner@gmail.com
+    * Theme Name:     theOne
+    * Version:        1.0
+    * Date:			  2012.11.11
+    *
+    **
+    -->
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Jekyll" />
+    <meta name="author" content="{{ site.author.name }}" />
+    <meta name="description" content="{{ site.descripton }}" />
+    <link rel="stylesheet" href="{{ site.url }}{{ site.style }}" type="text/css" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+    <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon" />
+    <!--[if lt IE 9]>
+    <script src="{{ site.url }}/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
+</head>
+<body id="{{ site.theme }}">
+<div id="head-line"></div>
+<div id="content">
+    <header id="head">
+        <div id="logo">
+            <h1>{{ site.blogName }}</h1>
+            <h2>{{ site.blogDesc }}</h2>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li class="fn-clear"><a href="{{ site.url }}" rel="nofollow" class="action"><i class="icon-home"></i> Home</a></li>
+                <li class="fn-clear"><a href="{{ site.url }}/archives.html"><i class="icon-list-ul"></i> Archives</a></li>
+                <li class="fn-clear"><a href="{{ site.url }}/contact.html"><i class="icon-envelope-alt"></i> Contact</a></li>
+                <li class="fn-clear"><a href="{{ site.follow.twitter }}"><i class="icon-twitter"></i> Twitter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contain">
+        <header id="begin">
+            <span>{{ page.date }}</span>
+        </header>
+		{{ content }}
+        <footer id="foot">
+            <p>{{ site.copyright }}Design by <a href="http://www.pizn.net" target="_blank" title="the One theme author">PIZn</a></p>
+        </footer>
+    </section>
+</div>
+<div id="foot-line"></div>
+<script src="{{ site.url }}/js/jquery.js" type="text/javascript"></script>
+<script src="{{ site.url }}/js/jquery.scrollTo.js" type="text/javascript"></script>
+<script src="{{ site.url }}/js/theOne.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    /**
+     * disqus
+     */
+    var disqusId = $("#disqus_thread");
+    if(disqusId && typeof disqusId != "undefined" && disqusId.length != 0) {
+        var disqusName = "{{ site.disqus }}";
+        var disqus_shortname = disqusName != "" ? disqusName : "piznblog";
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] ||
+                document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    }
+});
+</script>
+</body>
+</html>

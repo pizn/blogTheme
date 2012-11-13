@@ -1,0 +1,34 @@
+markdown:         rdiscount
+pygments:         true
+paginate:         4
+
+title:            The One Theme
+url:              http://10.15.124.15:4000
+feed:             /atom.xml
+author:
+    name:         PIZn
+    email:        pizner@gmail.com
+description:      "The one theme is another web theme design by PIZn."
+
+about:            "I am PIZn.I love all kinds of design, attention to the Internet dynamic, dedicated web front development, learn UI and UED."
+follow:
+    email:        pizner@gmail.com
+    github:       https://github.com/pizn
+    twitter:      http://www.twitter.com/piznlin
+    google:       https://plus.google.com/107483619032085919305
+    facebook:     http://facebook.com/zhanxinlin
+description:      Just another blog theme -- the One
+
+indexContent:     true
+imageLink:        http://www.pizn.net/static/images/20121109Monutain.jpg
+
+
+style:            /css/style.css
+blogName:         theOne 
+blogDesc:         Just another theme
+favicon:          http://www.pizn.net/favicon.ico
+theme:            default
+
+disqus:           piznblog
+
+copyright:        Copyright © 2011-2012 PIZn All rights reserved.

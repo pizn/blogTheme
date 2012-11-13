@@ -1,0 +1,21 @@
+---
+layout: default
+title: Archives
+date: All posts is here.
+---
+<article class="post">
+    {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
+            <h3>{{ post_year1 }}</h3>
+            <ul>
+            {% for post in site.posts %}
+                        {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+                        {% if post_year1 != post_year2 %}
+                            {% assign post_year1 = post_year2 %}
+                            </ul>
+                            <h3>{{ post_year1 }}</h3>
+                            <ul>
+                            {% endif %}
+                            <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+</article>
