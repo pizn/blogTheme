@@ -6,6 +6,7 @@
 
 * Violet Theme 1.0
 * Black Cube Theme 1.0
+* theOne Theme 1.0
 
 ###LICENSE
 
