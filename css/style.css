@@ -41,6 +41,13 @@ hr { border: 3px solid #f4f3f3; clear: both; max-width: 300px; border-radius: 5p
 img::selection      {background: none; width: 100%; }
 img::-moz-selection {background: none; width: 100%; }
 
+.fn-clear:after             { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.fn-clear                   { zoom:1; /* for IE6 IE7 */ }
+body .fn-hide               { display:none; }
+.fn-left,.fn-right          { display:inline; }
+.fn-left                    { float:left; }
+.fn-right                   { float:right; }
+
 article a:link, article a:visited, article a:hover, article a:active, #foot p a, #foot p a:hover, #pagination a:hover { text-decoration: none; border-bottom: 1px solid #ccc; color: black; }
 
 /*  Font Awesome
