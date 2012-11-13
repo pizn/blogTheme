@@ -26,9 +26,9 @@ imageLink:        http://www.pizn.net/static/images/20121109Monutain.jpg
 style:            /css/style.css
 blogName:         theOne 
 blogDesc:         Just another theme
-favicon:          /favicon.ico
+favicon:          http://www.pizn.net/favicon.ico
 theme:            green
 
 disqus:           piznblog
 
-copyright:        Copyright © 2011-2012 PIZn All rights reserved.
+copyright:        Copyright © 2011-2012 <a href="http://www.pizn.net/" target="_blank">PIZn</a> All rights reserved.
