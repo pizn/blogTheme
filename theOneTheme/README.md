@@ -6,15 +6,15 @@
 
 宽屏样式如下：
 
-<img src="http://www.pizn.net/static/images/20121113theOne1.jpg" alt="宽屏" />
+<img src="http://www.pizn.net/static/images/20121113theone1.jpg" alt="宽屏" />
 
 ipad样式：
 
-<img src="http://www.pizn.net/static/images/20121113theOne2.jpg" alt="ipad" />
+<img src="http://www.pizn.net/static/images/20121113theone2.jpg" alt="ipad" />
 
 iphone样式：
 
-<img src="http://www.pizn.net/static/images/20121113theOne3.jpg" alt="iphone" />
+<img src="http://www.pizn.net/static/images/20121113theone3.jpg" alt="iphone" />
 
 ###通过_config.yml，可以配置如下内容：
 
