@@ -412,6 +412,7 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 .post em { font-weight: 700; }
 .post .clearLeft { margin-left: -40px; }
 .post img, .post audio, .post iframe, .post audio, .post canvas, .post video { max-width: 720px; }
+.fork-me { position: fixed; right: 0; top: 0; z-index: 999; }
 
 
 /*************************
