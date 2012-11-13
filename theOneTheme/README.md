@@ -4,6 +4,8 @@
 
 theOne 为白色主题，但支持多种颜色的主题自定义。目前版本为 1.0, 支持 contact，archives和 404 页面。
 
+注：暂不支持 IE 浏览器。更喜欢的是 Chrome ，firefox 和 safari 浏览器。
+
 
 ###支持响应式设计
 
