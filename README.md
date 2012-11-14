@@ -6,7 +6,7 @@
 
 * Violet Theme 1.0
 * Black Cube Theme 1.0
-* theOne Theme 1.0
+* <a href="http://www.pizn.net/14-11-2012/theone-blog-theme/">theOne Theme 1.0</a>
 
 ###LICENSE
 
