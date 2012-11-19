@@ -4,7 +4,7 @@ date: Index
 ---
 {% for rpost in paginator.posts %}
 	<article class="post fn-clear">
-        <h2><a href="{{ site.url }}{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h2>
+        <h2 class="post-title"><a href="{{ site.url }}{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h2>
         <p class="time"><time pubdate="{{ rpost.date }}">{{ rpost.date | date_to_string }}</time></p>
         {% if site.indexContent == true %}
         {{ rpost.content }}
