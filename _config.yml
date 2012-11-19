@@ -27,7 +27,7 @@ style:            /css/style.css
 blogName:         theOne 
 blogDesc:         Just another theme
 favicon:          http://www.pizn.net/favicon.ico
-theme:            green
+theme:            red
 
 disqus:           piznblog
 
