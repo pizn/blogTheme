@@ -40,12 +40,14 @@ hr { border: 3px solid #f4f3f3; clear: both; max-width: 300px; border-radius: 5p
 ::-moz-selection    {background: rgba(0, 0, 0, .1);}
 img::selection      {background: none; width: 100%; }
 img::-moz-selection {background: none; width: 100%; }
+
 .fn-clear:after             { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
 .fn-clear                   { zoom:1; /* for IE6 IE7 */ }
 body .fn-hide               { display:none; }
 .fn-left,.fn-right          { display:inline; }
 .fn-left                    { float:left; }
 .fn-right                   { float:right; }
+
 article a:link, article a:visited, article a:hover, article a:active, #foot p a, #foot p a:hover, #pagination a:hover { text-decoration: none; border-bottom: 1px solid #ccc; color: black; }
 
 /*  Font Awesome
@@ -356,7 +358,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 #head-line { width: 100%; height: 5px; background: black; position: fixed; top: 0; left: 0; z-index: 101; }
 #foot-line { width: 100%; height: 5px; background: black; position: fixed; bottom: 0; left: 0; z-index: 101;}
 #content { width: 100%;}
-#head { width: 320px; height: auto; min-height: 400px; position: fixed; left: 0; top: 5px; font-weight: 700; text-align: center; }
+#head { width: 320px; min-height: 400px; height: auto;  position: fixed; left: 0; top: 5px; font-weight: 700; text-align: center; }
 #logo { margin: .8em auto 1.8em auto; width: 200px; height: 200px; border-radius: 100px 100px; background: #f8f8f8; }
 #logo h1 { font-family: 'JennaSue'; font-size: 80px; width: 200px; overflow: hidden;  line-height: 200px; text-align: center; text-shadow: -1px 2px 3px #a0a0a0; }
 #logo h2 { font-weight: 400; font-family:'JennaSue'; font-size:  30px; color: #898989; line-height: 50px; padding-bottom: .3em; border-bottom: 1px dotted #d8d8d8; }
@@ -411,6 +413,10 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 .post em { font-weight: 700; }
 .post .clearLeft { margin-left: -40px; }
 .post img, .post audio, .post iframe, .post audio, .post canvas, .post video { max-width: 720px; }
+.post .post-title { margin-left: -40px; margin-bottom: 10px; padding: 4px 0 4px 40px; background: #f8f8f8;  border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;   }
+.post .post-title a { border-bottom: none; }
+.post .post-title a:hover { border-bottom: 1px dotted #343434; }
+.fork-me { position: fixed; right: 0; top: 0; z-index: 999; }
 
 
 /*************************
@@ -423,6 +429,8 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 #red .post blockquote { border-color: #f00;}
 #red .pagination li.current a  { background: #ffffda; color: #f00;}
 #red #J-backTop { color: #f00; }
+#red .post .post-title { background: #ffffda; color: #f00; }
+#red .post .post-title a { color: #f00; }
 
 #orange #head-line, #orange #foot-line {  background: #f2a355; }
 #orange #logo { background: #dff5d2; }
@@ -431,6 +439,8 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 #orange .post blockquote { border-color: #f2a355;}
 #orange .pagination li.current a  { background: #dff5d2;  color: #f2a355; }
 #orange #J-backTop { color: #f2a355; }
+#orange .post .post-title { background: #dff5d2; color: #f2a355; }
+#orange .post .post-title a { color: #f2a355; }
 
 #blue #head-line, #blue #foot-line {  background: #4a84d5; }
 #blue #logo { background: #ebf4fa; }
@@ -439,6 +449,8 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 #blue .post blockquote { border-color: #4a84d5;}
 #blue .pagination li.current a  { background: #ebf4fa;  color: #4a84d5; }
 #blue #J-backTop { color: #4a84d5; }
+#blue .post .post-title { background: #ebf4fa; color: #4a84d5; }
+#blue .post .post-title a { color: #4a84d5; }
 
 #pink #head-line, #pink #foot-line {  background: #ff4073; }
 #pink #logo { background: #fffff5; }
@@ -447,6 +459,8 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 #pink .post blockquote { border-color: #ff4073;}
 #pink .pagination li.current a  { background: #fffff5; color: #ff4073; }
 #pink #J-backTop { color: #ff4073; }
+#pink .post .post-title { background: #fffff5; color: #ff4073; }
+#pink .post .post-title a { color: #ff4073; }
 
 #brown #head-line, #brown #foot-line {  background: #990104; }
 #brown #logo { background: #fdc97d; }
@@ -455,6 +469,8 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 #brown .post blockquote { border-color: #990104;}
 #brown .pagination li.current a  { background: #fdc97d; color: #990104; }
 #brown #J-backTop { color: #990104; }
+#brown .post .post-title { background: #fdc97d; color: #990104; }
+#brown .post .post-title a { color: #990104; }
 
 #green #head-line, #green #foot-line {  background: #067d01; }
 #green #logo { background: #fffecb; }
@@ -463,6 +479,8 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 #green .post blockquote { border-color: #067d01;}
 #green .pagination li.current a  { background: #fffecb; color: #067d01; }
 #green #J-backTop { color: #067d01; }
+#green .post .post-title { background: #fffecb; color: #067d01; }
+#green .post .post-title a { color: #067d01; }
 
 
 /*************************
@@ -483,10 +501,14 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
 *************************/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     body {overflow-x:  hidden;}
-    #head { width: 100%; height: auto;  position: relative; border-bottom: 1px solid #dedede; top: 0; min-height:  300px; }
-    #nav { margin-top: 80px;}
-    #begin { width: 90%; padding: 30px 5%; }
-    #contain { margin-left: 0; padding: 0;min-width: 100%;  width: 100%; }
+    #head { width: 100%;  min-height: auto; float: left;  height: auto;  position: relative; border-bottom: 1px solid #dedede; top: 0; }
+    #logo { width: 100px; height: 100px; margin: 30px 0 0 20px; float: left; }
+    #logo h1 { font-size: 40px; width: 100px; overflow: hidden;  line-height: 100px; text-align: center; text-shadow: -1px 2px 3px #a0a0a0; }
+    #logo h2 { font-size:  20px; color: #898989; line-height: 40px; padding-bottom: .3em; border-bottom: 1px dotted #d8d8d8; }
+    #nav { margin-top: 20px; float:left; width: 50%; }
+    #nav li { float: left; width: 100%; margin: 0 0; }
+    #begin { display: none;  }
+    #contain { margin-left: 0; padding: 0;min-width: 100%;  width: 100%; float:left; }
     .post { width: 90%; padding: 0 5%; margin: 30px 0; overflow: hidden; scroll-x: hidden;}
     .post p, .post h3, .post h4, .post blockquote, .post li, .post table, .post img, .post audio, .post iframe, .post audio, .post canvas, .post video {
        max-width: 100%;
