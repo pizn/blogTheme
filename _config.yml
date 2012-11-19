@@ -3,7 +3,7 @@ pygments:         true
 paginate:         4
 
 title:            The One Theme
-url:              http://www.pizn.me/blogTheme
+url:              http://www.pizn.me/blotTheme
 feed:             /atom.xml
 author:
     name:         PIZn
