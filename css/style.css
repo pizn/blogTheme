@@ -513,6 +513,9 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; color:#333; }
     .post p, .post h3, .post h4, .post blockquote, .post li, .post table, .post img, .post audio, .post iframe, .post audio, .post canvas, .post video {
        max-width: 100%;
     }
+    .post table th, .post table td  {
+    	padding: 3px 0;
+    }
     .post pre {
         width: 96%;
         margin-left: 0;
